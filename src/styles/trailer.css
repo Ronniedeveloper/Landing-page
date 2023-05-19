@@ -1,0 +1,186 @@
+.trailers {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 35%;
+    background-color: #393333;
+    color: #000000;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+}
+.title p#title {
+    font-size: 15px;
+}
+.sort {
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+}
+.sort p {
+ color:#000000;
+}
+.sort p#sort {
+    font-size: 15px;
+}
+.sort p#today {
+    padding-left: 5px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.caret-right {
+    padding-top: 18px;
+    color: #66e177;
+}
+
+img.green, img.flash {
+    width: 75%;
+    height: 50%;
+    border-radius: 25px;
+}
+.arrow  {
+    position: relative;
+    padding-top: 5px;
+}
+
+.text-arrow {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(76, 235, 134, 0.3);
+    width: 75%;
+    top: 60.5%;
+    border-radius: 0 0 25px 25px;
+}
+
+.text-arrow p {
+    padding-left: 30px;
+    border-left: 2px solid ;
+    color: #ffffff;
+}
+.text-arrow .play {
+    color: #ffc800;
+    font-size: 40px;
+    padding: 8px 24px;
+}
+.text-arrow .caret-right {
+    font-size: 40px;
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    color: #ffc800;
+    border-radius: 25px;
+}
+
+.flash {
+    position: relative;
+    padding-top: 5px;
+}
+.text-flash {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 21, 0, 0.3);
+    width: 75%;
+    top: 57.4%;
+    border-radius: 0 0 25px 25px;
+}
+
+.text-flash p {
+    padding-left: 30px;
+    color: #ffffff;
+}
+.text-flash .play {
+    color: #ffc800;
+    font-size: 40px;
+    padding: 8px 24px;
+}
+.text-flash .caret-right {
+    font-size: 40px;
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    color: #ffc800;
+    border-radius: 25px;
+}
+
+.btn-container {
+    background-color: #bfb8b8;
+    width: 80%;
+    padding-top: 10px;
+}
+
+button.success {
+    padding: 8px 18px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff;                                    
+}
+button.drama {
+    padding: 8px 12px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f70d0d;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff;                                    
+}
+button.advent {
+    padding: 8px 18px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff; 
+}
+button.dance {
+    padding: 8px 18px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f70d0d;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff; 
+}
+button.cartoon {
+    padding: 8px 18px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff; 
+}
+
+.genre {
+    display: flex;
+
+}
+.genre .plus {
+    padding: 18px 8px 2px 15px;
+}
+.btn-dark {
+    display: flex;
+}
+.btn-dark button {
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #ffff; 
+}
