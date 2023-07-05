@@ -1,10 +1,11 @@
 .trailers {
+    background-color: #000000;
+    color: #f9f7f7;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 35%;
-    background-color: #393333;
-    color: #000000;
+    padding: 2px 2px 2px 20px;
 }
 .title {
     display: flex;
@@ -12,6 +13,7 @@
 }
 .title p#title {
     font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sort {
     display: flex;
@@ -19,7 +21,7 @@
     padding-left: 35px;
 }
 .sort p {
- color:#000000;
+ color:#f9f7f7;
 }
 .sort p#sort {
     font-size: 15px;
@@ -27,7 +29,7 @@
 .sort p#today {
     padding-left: 5px;
     font-size: 15px;
-    color: rgb(0, 0, 0);
+    color: #f9f7f7;
 }
 .caret-right {
     padding-top: 18px;
@@ -56,7 +58,7 @@ img.green, img.flash {
 
 .text-arrow p {
     padding-left: 30px;
-    border-left: 2px solid ;
+    border-left: 2px solid;
     color: #ffffff;
 }
 .text-arrow .play {
@@ -90,6 +92,7 @@ img.green, img.flash {
 .text-flash p {
     padding-left: 30px;
     color: #ffffff;
+    border-left: 2px solid;
 }
 .text-flash .play {
     color: #ffc800;
@@ -106,7 +109,6 @@ img.green, img.flash {
 }
 
 .btn-container {
-    background-color: #bfb8b8;
     width: 80%;
     padding-top: 10px;
 }
@@ -115,7 +117,7 @@ button.success {
     padding: 8px 18px;
     margin: 5px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
+    background-color: #fac906;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -135,7 +137,7 @@ button.advent {
     padding: 8px 18px;
     margin: 5px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
+    background-color: #135aff;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -155,7 +157,7 @@ button.cartoon {
     padding: 8px 18px;
     margin: 5px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
+    background-color: #fac906;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -173,7 +175,7 @@ button.cartoon {
     display: flex;
 }
 .btn-dark button {
-    background-color: #000000;
+    background-color: #a200ff;
     color: #ffffff;
     display: inline-block;
     padding: 8px 18px;

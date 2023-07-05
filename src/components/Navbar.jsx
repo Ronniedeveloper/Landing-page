@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <div className="links">
                 <ul>
-                    <li>
+                    <li id='movies'>
                         <a href="/">Movies</a>
                     </li>
                     <li>

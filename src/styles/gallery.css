@@ -1,5 +1,103 @@
-.move-gallery {
-    background-color: #0000;
+.movie-gallery {
     width: 75%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: #000;
+}
+
+.background {
+    position: relative;
+    height: 50%;
+    background: rgba(222, 45, 22, 0.7);
+}
+
+.background #text {
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px;
+    position: absolute;
+    font-size: 3.3em;
+    top: 0px;
+    left: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+    letter-spacing: 15px;
+    animation: animate ease-in-out 2s;
+}
+@keyframes animate {
+    from {
+        left: 20px;
+        opacity: 70px;
+        transition: all;
+    }
+}
+
+.background #black-adams {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.background .background-play {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 5em;
+    color: #ff1616;
+    padding-left: 40px;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    margin: 4px;
+}
+.image {
+    margin: 4px;
+}
+.image h1 {
+    font-size: 10px;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons #thumbsup {
+    color: #4d58f8;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.icons #share {
+    color: #f40707;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.image button {
+    background-color: #e00a0a;
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 7px 8px;
+    border-radius: 0px 15px;
+}
+.image button:hover {
+    background-color: #2d6c40;
+}
+.image button #download {
+    padding-right: 10px;
+}
+
+.image-container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px 50px;
 }

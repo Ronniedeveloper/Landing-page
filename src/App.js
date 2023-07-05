@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from './components/Footer';
 import MoveGallery from './components/MoveGallery';
 import Navbar from './components/Navbar';
 import NewTrailer from './components/New_trailer';
+import './styles/App.css'
 
 const App = () => {
   return (
@@ -12,6 +14,7 @@ const App = () => {
           <NewTrailer />
           <MoveGallery />
         </div>
+        <Footer />
       </div>
       
     </div>
