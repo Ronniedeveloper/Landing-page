@@ -14,6 +14,20 @@ const Footer = () => {
                 </div>
                 <div className="contact">
                     <h1>Contact</h1>
+                    <ul className="list">
+                        <a href="">
+                            <li>Movies</li>
+                        </a>
+                        <a href="">
+                            <li>Block Busters</li>
+                        </a>
+                        <a href="">
+                            <li>Contact</li>
+                        </a>
+                        <a href="">
+                            <li>About</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
         </div>

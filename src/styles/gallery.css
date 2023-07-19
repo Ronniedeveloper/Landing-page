@@ -87,6 +87,7 @@
     border: none;
     padding: 7px 8px;
     border-radius: 0px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .image button:hover {
     background-color: #2d6c40;

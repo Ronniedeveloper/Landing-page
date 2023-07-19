@@ -11,3 +11,39 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.contact, .about {
+    padding: 0 160px;
+    border-radius: 10px;
+}
+.contact:hover, .about:hover {
+    box-shadow: 0px 0px 2px #fff;
+    transition: 1s;
+}
+
+.about p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact .list {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list a {
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    padding-top: 3px;
+}
+.list a:hover {
+    color: #ffa500;
+    transition: 1ms;
+}
+
+.list a li {
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
